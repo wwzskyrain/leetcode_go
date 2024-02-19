@@ -1,4 +1,4 @@
-package array
+package medium
 
 import (
 	"fmt"

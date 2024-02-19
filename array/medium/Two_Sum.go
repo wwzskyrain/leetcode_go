@@ -1,4 +1,4 @@
-package array
+package medium
 
 func twoSum(nums []int, target int) []int {
 	n := len(nums)
