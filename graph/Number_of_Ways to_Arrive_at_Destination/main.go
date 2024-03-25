@@ -65,6 +65,7 @@ func (pq PriorityQueue) Len() int {
 func (pq PriorityQueue) Less(i, j int) bool {
 	return pq[i].first < pq[j].first
 }
+
 func (pq *PriorityQueue) Push(x any) {
 	*pq = append(*pq, x.(Pair))
 }
